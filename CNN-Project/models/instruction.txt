@@ -1,0 +1,3 @@
+split -b 89M your_model.h5 your_model_part_
+cat your_model_part_* > your_model.h5
+also for .keras
